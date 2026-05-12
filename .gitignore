@@ -1,0 +1,17 @@
+# Images                                                                                                                                                                                    
+*.jpg                                                                                                                                                                                       
+*.jpeg                                                                                                                                                                                      
+*.png                                                                                                                                                                                       
+*.gif                                                                                                                                                                                       
+*.bmp           
+*.tiff
+*.webp
+
+# Checkpoints
+checkpoints/
+
+# Dataset
+content/
+
+# Virtual env.
+.venv/

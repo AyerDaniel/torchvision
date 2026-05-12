@@ -1,0 +1,84 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            l8rgatojrbnnkur5hwzfu3t0np8ps037:
+                cpu_count: 14
+                cpu_count_logical: 20
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "3935709487104"
+                        used: "597408497664"
+                email: da632@njit.edu
+                executable: /home/johnsmith/Desktop/njit/workspaces/torchvision-frcnn-hpo/.venv/bin/python3
+                gpu: NVIDIA GeForce RTX 3080 Ti Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 7424
+                      memoryTotal: "17179869184"
+                      name: NVIDIA GeForce RTX 3080 Ti Laptop GPU
+                      uuid: GPU-3815f5da-e0c1-6fbc-07c2-aa46ef732d33
+                host: ravensNest
+                memory:
+                    total: "67258839040"
+                os: Linux-6.17.0-14-generic-x86_64-with-glibc2.39
+                program: <python with no main file>
+                python: CPython 3.12.3
+                root: /home/johnsmith/Desktop/njit/workspaces/torchvision-frcnn-hpo
+                startedAt: "2026-03-13T01:37:00.440959Z"
+                writerId: l8rgatojrbnnkur5hwzfu3t0np8ps037
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 35
+                - 41
+                - 49
+            "2":
+                - 1
+                - 35
+                - 41
+                - 49
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.3
+            "5": 0.25.1
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.25.1
+            "13": linux-x86_64
+epochs:
+    value: 4
+grad_clip_norm:
+    value: 2.5919641029876854
+lr:
+    value: 6.829352954261399e-05
+momentum:
+    value: 0.8609901026988318
+rpn_batch_size_per_image:
+    value: 291
+rpn_bg_iou_thresh:
+    value: 0.3829436894685043
+rpn_fg_iou_thresh:
+    value: 0.5555752835216134
+rpn_nms_thresh:
+    value: 0.5796780940820394
+rpn_positive_fraction:
+    value: 0.5020035195807186
+rpn_post_nms_topk:
+    value: 1715
+rpn_pre_nms_topk:
+    value: 2595
+seed:
+    value: 4132
+stage:
+    value: stage2_rpn
+weight_decay:
+    value: 6.87491841689458e-05
